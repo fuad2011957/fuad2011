@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+body{
+    margin: 0;
+    
+}
+
+h1{
+    font-family: "Orbitron", sans-serif;    
+    color: white;
+} 
+.goo{
+    height: 0px;
+    color:black;
+    background-image: linear-gradient(120deg,rgb(0, 0, 87),black) 
+}  
+.app{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg,rgb(0, 0, 87),black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+ul{
+    margin: 0;
+    color: white;
+}
+ol{   
+    color: white;
+}
+img:hover{
+    transition: all .6s ease;
+    box-shadow: 3px 3px 19px blue;
+    cursor: pointer;
+}
+.too{ 
+    transition: all .6s ease;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    
+}
+ul li{
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 0px 10px white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-family: "Orbitron", sans-serif;
+    transition: all .2s ease;
+}
+ol li{
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 0px 10px white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-family: "Orbitron", sans-serif;
+    transition: all .2s ease;
+}
+ul li:hover{
+    transform: translateX(15px);
+    box-shadow: 0px 0px 10px blue;
+    cursor: pointer;
+}
+ol li:hover{
+    transform: translateX(15px);
+    box-shadow: 0px 0px 10px blue;
+    cursor: pointer;
+}
+
+.broken{
+    box-shadow: 0px 0px 10px red !important;
+    color: red !important;
+}
+audio{
+    align-items: center;
+    margin: 0;
+    align-content: center;
+}
+.cool{
+    box-sizing: 0px 0px 10px red ;
+    width: 250px;
+    height: 30px;
+    transition: all .2s ease;
+}
+.cool:hover{
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.root{
+    width: 250px;
+    height: 30px;
+    transition: all .2s ease;
+}
+
+.ess{
+
+    transition: all .2s ease;
+    box-shadow: 3px 3px 60px white;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;      
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.ess:hover{
+    box-shadow: 1px 1px 60px rgb(51, 255, 0);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.ess{
+    border-radius: 50%
+}
+video{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px white;
+    width: 200px;
+    height: 130px;
+    transition: all .3s ease;
+}
+video:hover{
+    width: 220px;
+    height: 150px;
+    box-shadow: 3px 3px 30px violet;
+}
+body{
+    text-align: center;
+    background-color: white;
+    color: white;
+    height: 100vh;
+}
+
+form{
+    font-family: "Orbitron", sans-serif;
+    width: 270px;
+    height: 350px;
+    box-shadow: 0px 0px 10px blue;
+    margin: 0 auto;
+    align-content: center;
+    border-radius: 15px;
+}
+input{
+    margin-bottom: 5px;
+    height: 40px;
+    width: 230px;
+    border-radius: 15px;
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+}
+.are{
+    background-image: linear-gradient(120deg,rgb(0, 0, 87),black);  
+}
+.poo{
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px white;
+    width: 20px;
+    height: 20px;    
+    transition: all .2s ease;
+}
+.poo:hover{
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.url{
+    font-family: "Orbitron", sans-serif;    
+    color: white;
+}
